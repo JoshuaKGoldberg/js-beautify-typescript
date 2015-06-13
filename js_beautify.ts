@@ -78,6 +78,20 @@ declare var exports: any;
 declare var window: Window;
 declare var global: any;
 
+declare var js_beautify: {
+    (js_source_text: string, options?: {
+        "indent_size"?: number;
+        "indent_char"?: string;
+        "preserve_newlines"?: boolean;
+        "max_preserve_newlines"?: number;
+        "jslint_happy"?: boolean;
+        "brace_style"?: string;
+        "space_before_conditional"?: boolean;
+        "unescape_strings"?: boolean;
+        "wrap_line_length"?: number;
+    })
+};
+
 (function () {
     var acorn: any = {};
     (function (exports) {
