@@ -1,4 +1,4 @@
-// Type definitions for js_beautify
+// Type definitions for js_beautify 1.5.6
 // Project: https://github.com/beautify-web/js-beautify/
 // Definitions by: Josh Goldberg <https://github.com/JoshuaKGoldberg/>
 // Definitions: https://github.com/borisyankov/DefinitelyTyped
